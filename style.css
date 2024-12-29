@@ -1,0 +1,46 @@
+#main-container {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 0;
+    width: 450px;
+    height: 225;
+}
+
+#retricted-textarea {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: 0;
+    text-align: justify;
+}
+
+.focus:focus {
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+}
+
+#local-count {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.modified-focus:focus {
+    border-color: red;
+    box-shadow: 0 0 5px red;
+}
+
+.focus:focus + .text {
+    color: blue;
+}
+
+.modified-text {
+    color: red;
+    font-weight: bold;
+}
